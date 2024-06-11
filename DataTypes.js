@@ -45,6 +45,7 @@
 
 // Number = converts the value to number from string
 // Boolean = converts to boolean value - true ->1 , false - 0 & "" - false , "value" - true
+// String = converts into string 
 
 
 score = "33"
