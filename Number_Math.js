@@ -30,11 +30,43 @@
 //Math
 
 //Power
+// 2 to the power of 6
+// let power = Math.pow(2,6);
+// console.log(power);
+
 //sqrt
+// To know the square root of 64 // output is 4 
+// let sqrt = (64);
+// console.log(sqrt);
+
 //abs
-//ceil
+// Converts the value to positive if it is negative
+// let abs = Math.abs(-4);
+// console.log(abs);
+
+//ceil 
+// Rounds the value even if single is present after decimal 
+// let ceil = 123.10
+// console.log(Math.ceil(ceil));
+
 //floor
-//min
-//max
-//random
-//trunc
+// Returns the only value which is before decimal
+// let floor = 1.5234;
+// console.log(Math.floor(floor));
+
+//min and max
+
+// console.log(Math.min(2, 3, 1));
+// // Expected output: 1
+
+// console.log(Math.min(-2, -3, -1));
+// // Expected output: -3
+
+//random  = Generates a random value between 0 to 1
+// let randomVal = Math.floor(Math.random()*2+1);
+// console.log(randomVal);
+
+//trunc - Remove the fractional digits i.e after decimal value
+
+// let trunc = 1234.567;
+// console.log(Math.trunc(trunc));
