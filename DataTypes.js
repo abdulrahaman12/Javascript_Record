@@ -36,10 +36,15 @@
 //null
 //symbol - unique
 
+// Non-primitive Data type 
+
+// Arrays, functions, objects
+
 //Questions 
 
 // typeOf null is Object
 // typeOf undefined is undefined
+// Datatype of non-primitive would be function and datatype of function is object function
 
 // Datatype conversion 
 
@@ -48,12 +53,41 @@
 // String = converts into string 
 
 
-score = "33"
-scoreplus = "33abc"
-let valueInnumber = Number(scoreplus);
-console.log(valueInnumber);
+// score = "33"
+// scoreplus = "33abc"
+// let valueInnumber = Number(scoreplus);
+// console.log(valueInnumber);
 
 // string can be converted into number but number with string value will also be converted into number - Not strict check in js
 
 
+// Stack and Heap Memory 
 
+// Stack - Primitive datatype & Heap - Non-primitive data type 
+
+// primitive data type holds a copy of value 
+
+// Non - primitive datatype holds a original value since it is reference to function
+
+// stack primitive
+
+// If you assign variable instead of value it will take as copy and if you reassign any value to its variable 
+// it will take that last assigned value as current value
+// let uniquevar = "uzma"
+
+// let secondvar = uniquevar;
+// secondvar = "jawweriya"
+// secondvar = "Asgari"
+// console.log(uniquevar);
+// console.log(secondvar);
+
+let uniqueone = {
+    mail:"unique@1",
+    id:1
+}
+
+let uniquetwo = uniqueone;
+
+uniquetwo.mail= "mail@2"
+
+console.log(uniqueone.mail);
