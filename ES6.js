@@ -48,3 +48,13 @@
 ((shop)=>{
     console.log(`This icecream is available at ${shop}`)
 })('Ibacco')
+
+// Execution context and call stack - How does javascript code runs
+
+// Javascript is single threaded.
+
+// 1.Global execution context
+// 2.Function Execution context
+// 3.Eval execution context
+
+ 
