@@ -29,3 +29,16 @@
 
 // A bunch of callback is hard to understand
   
+// Promises - To solve the problem of callback hell (Eventual completion of task It is object in js)
+
+// resolve - Promise and fulfilled and completed successfully.
+// reject - Promise is fulfilled but occurs error.
+
+// Promise object has states - Pending, fulfilled, rejected.
+
+// Async-Await - Always returns a promise 
+
+// Await - Pauses the execution of its sourrounding async function untill the promise is settled 
+
+// IIFE - Dont need to call a function unnecessarily instead call using a parenthesis (wholefunction)()
+// which automatically does the call.

@@ -25,3 +25,21 @@
 // },3000)
 
 // clearInterval(TriggerInterval);
+
+function AsyncAwait(getDataId){
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            console.log("Promise initially resolved" , getDataId)
+            resolve(200);
+        },2000)
+    })
+}
+
+async function getAllData(){
+    await AsyncAwait(1);
+    console.log("Getting Data 2")
+    await AsyncAwait(2);
+    console.log("Getting Data 3")
+    await AsyncAwait(3);
+}
+
