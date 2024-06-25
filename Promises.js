@@ -42,3 +42,7 @@
 
 // IIFE - Dont need to call a function unnecessarily instead call using a parenthesis (wholefunction)()
 // which automatically does the call.
+
+// Fetch method is used to fetch a resource (data).
+
+let promise = fetch(url,[options])

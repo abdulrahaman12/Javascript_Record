@@ -26,10 +26,6 @@
 
 // Events 
 
-document.getElementById("idname").addEventListener('click',function click_function{
-    alert("Text clicked");
-})
-
 // Types - Browser events and environmental events
 
 // Event propagation 
@@ -40,3 +36,5 @@ document.getElementById("idname").addEventListener('click',function click_functi
 // Event capturing - It captures the event from top to bottom - eg: ul to li
 // preventdefault - doesn't allow to run the event
 // stoppropogation - Doesn't allow to capture event
+
+
